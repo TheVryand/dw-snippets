@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recentSnippets max="10">
+	<snippet name="PHP\if ($msg[0]!='00000')" id="Snippets*PHP*if_($msg[0]!='00000').csn" />
+	<snippet name="PHP\require" id="Snippets*PHP*require.csn" />
+	<snippet name="PHP\PHP标记" id="Snippets*PHP*PHP标记.csn" />
+	<snippet name="HTML\script" id="Snippets*HTML*script.csn" />
+</recentSnippets>

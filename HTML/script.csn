@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="script" description="自动建立script标签" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<script type="text/javascript">]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[</script>]]>
+</insertText>
+</snippet>

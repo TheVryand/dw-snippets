@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="预处理" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[$sql=$pdo->prepare('select * from account');
+$sql->bindParam(':id', $id, PDO::PARAM_INT);
+$sql->execute();
+$msg=$sql->errorInfo();
+if ($msg[0]!='') {
+}
+else {
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
