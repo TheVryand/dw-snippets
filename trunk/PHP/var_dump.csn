@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="var_dump" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var_dump(]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[);]]>
+</insertText>
+</snippet>
