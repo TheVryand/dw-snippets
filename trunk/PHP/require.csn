@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="require" description="包含文件" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[require(']]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[');]]>
+</insertText>
+</snippet>

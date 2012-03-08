@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="new PDO" description="以PDO组件建立数据库连接" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[try {
+
+	$pdo=new PDO($db['default']['dsn'], $db['default']['user'], $db['default']['pwd']);
+
+}
+
+catch (PDOException $e) {
+
+	$msg[0]=__LINE__;
+
+	$msg[2]='无法连接商城数据库';
+
+	errLog('', $msg[0], '无法连接帐号数据库：'.$e->getMessage());
+
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
