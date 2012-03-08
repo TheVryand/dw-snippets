@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="PHP标记" description="建立PHP开始和结尾标记" preview="code" type="wrap">
+<snippet name="类的构造函数" description="asd" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[<?php
-]]>
+<![CDATA[function __construct() {
+	]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[
-?>]]>
+}]]>
 </insertText>
 </snippet>

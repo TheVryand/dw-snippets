@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="字符转换成小写" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[strtolower(]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[)]]>
+</insertText>
+</snippet>

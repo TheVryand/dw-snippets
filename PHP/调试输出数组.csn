@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="调试输出数组" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[echo '<pre>';
+print_r(]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[);
+echo '</pre>';
+exit();]]>
+</insertText>
+</snippet>

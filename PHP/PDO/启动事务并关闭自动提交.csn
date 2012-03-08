@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="启动事务并关闭自动提交" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[$pdo->beginTransaction();
+$pdo->exec('SET AUTOCOMMIT=0'); //关闭自动提交]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

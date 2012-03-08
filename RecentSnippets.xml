@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recentSnippets max="10">
-	<snippet name="PHP\if ($msg[0]!='00000')" id="Snippets*PHP*if_($msg[0]!='00000').csn" />
-	<snippet name="PHP\require" id="Snippets*PHP*require.csn" />
+	<snippet name="PHP\数据库连接参数变量定义" id="Snippets*PHP*数据库连接参数变量定义.csn" />
+	<snippet name="PHP\调试输出数组" id="Snippets*PHP*调试输出数组.csn" />
+	<snippet name="PHP\字符串拼接成数组" id="Snippets*PHP*字符串拼接成数组.csn" />
+	<snippet name="PHP\将UNIX时间戳转为字符串" id="Snippets*PHP*将UNIX时间戳转为字符串.csn" />
+	<snippet name="PHP\自定义变量\msg变量判断" id="Snippets*PHP*自定义变量*msg变量判断.csn" />
 	<snippet name="PHP\PHP标记" id="Snippets*PHP*PHP标记.csn" />
+	<snippet name="PHP\类的构造函数" id="Snippets*PHP*类的构造函数.csn" />
 	<snippet name="HTML\script" id="Snippets*HTML*script.csn" />
+	<snippet name="PHP\require" id="Snippets*PHP*require.csn" />
 </recentSnippets>

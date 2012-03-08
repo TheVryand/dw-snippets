@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="数据库连接参数变量定义" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$db['default']['host']='127.0.0.1';		//数据库服务器 主机名/域名/IP
+$db['default']['port']='3306';			//数据库服务器 端口号
+$db['default']['type']='mysql';			//数据库 类型(mysql/mssql)
+$db['default']['user']=']]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[';				//数据库 账号
+$db['default']['pwd']='';				//数据库 密码
+$db['default']['database']='';			//数据库名
+$db['default']['dsn']=$db['default']['type'].':host='.$db['default']['host'].';dbname='.$db['default']['database'];	//数据库连接字符串(供PDO驱动使用)
+$db['default']['debug']=true;				//是否开启数据库详细错误信息]]>
+</insertText>
+</snippet>
