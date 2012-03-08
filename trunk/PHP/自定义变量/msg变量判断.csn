@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="if ($msg[0]!='00000')" description="" preview="code" type="wrap">
+<snippet name="msg变量判断" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[if ($msg[0]!='00000') {
+<![CDATA[if ($msg[0]=='00000') {
 	]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[
