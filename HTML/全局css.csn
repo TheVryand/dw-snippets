@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="全局css" description="" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.clr {
+	font-size: 0;
+	height: 0;
+	clear: both;
+	background:none;
+	display: block;
+}
+input, select, button {
+	font: 12px Tahoma, Geneva, sans-serif;
+}
+input {
+	padding: 0 2px;
+}
+img {
+	border-style: none;
+}
+a:link, a:visited {
+	color: #06C;
+}
+a:hover {
+	color: #F60;
+}
+
+.wrap {
+	width: 970px;
+	margin: 0 auto;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
