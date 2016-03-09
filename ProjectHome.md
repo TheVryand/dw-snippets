@@ -1,0 +1,1 @@
+My Dreamweaver CS5 snippets configuration files
